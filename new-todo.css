@@ -1,0 +1,104 @@
+#main-container{
+  display: flex;
+}
+.for{
+  width: 100%;
+  min-height: 400px;
+  background-color: cadetblue;
+  margin: 20px;
+}
+.five{
+  width: 100%;
+  min-height: 50px;
+  padding-top: 10px;
+  background-color: azure;
+  color: red;
+  text-align: center;
+  font-size: 30px;
+
+}
+.six{
+  background-color: #bbb;
+  width: 350px;
+  position: fixed;
+  bottom: 0;
+  right: 10px;
+
+}
+input{
+  width: 100%;
+}
+.seven{
+  height: 50px;
+  background: blue;
+  color: greenyellow;
+  text-align: center;
+  font-size: 30px;
+}
+
+#description{
+  width: 100%;
+  min-height: 100px;
+}
+#add{
+  margin-top: 5px;
+  background-color: greenyellow;
+  border: none;
+  padding: 10px;
+  font-size: 17px;
+
+}
+#add2{
+  margin-top: 5px;
+  background-color: red;
+  color: black;
+  border: none;
+  padding: 10px;
+  font-size: 17px;
+
+
+}
+#input-0{
+  min-height: 40px;
+}
+#datepicker{
+  min-height: 40px;
+}
+
+.big{
+  width: 94%;
+  min-height: 50px;
+  background: #fff;
+  box-shadow: 0px 0px 20px #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 10px;
+  z-index: 100;
+}
+.new-header{
+  font-weight: 500;
+    padding-bottom: 5px;
+    color: #bbb;
+  font-size: 20px;
+}
+.new-description {
+    font-weight: 100;
+    padding-bottom: 5px;
+}
+.new-datepicker{
+  font-weight: 100;
+    padding-bottom: 5px;
+    font-size: 13px;
+    text-align: right;
+    color: #999;
+}
+#delete{
+  background-color: #F40707;
+  width: 100px;
+  outline: none;
+  border-color: #F40707;
+  border-radius: 15px 15px 15px 15px;
+  min-height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
