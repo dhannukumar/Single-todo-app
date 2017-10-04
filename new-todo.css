@@ -1,18 +1,23 @@
+body{
+/*	background-color: #c1c1f0;*/
+	font-family: "ubuntu";
+	background-image: url("jq.jpg");
+}
 #main-container{
   display: flex;
 }
 .for{
   width: 100%;
   min-height: 400px;
-  background-color: cadetblue;
+  background-color: #4747d1;
   margin: 20px;
 }
 .five{
   width: 100%;
   min-height: 50px;
   padding-top: 10px;
-  background-color: azure;
-  color: red;
+  background-color: #9999e6;
+  color: black;
   text-align: center;
   font-size: 30px;
 
@@ -68,7 +73,7 @@ input{
 .big{
   width: 94%;
   min-height: 50px;
-  background: #fff;
+  background: #eaeafa;
   box-shadow: 0px 0px 20px #ccc;
   border-radius: 5px;
   padding: 5px;
@@ -78,7 +83,7 @@ input{
 .new-header{
   font-weight: 500;
     padding-bottom: 5px;
-    color: #bbb;
+    color: black;
   font-size: 20px;
 }
 .new-description {
