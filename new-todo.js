@@ -13,25 +13,29 @@ $(document).on("click", '#delete', function () {
     return false;
   });
 
+  var file1;
+  //this is for change file input
+    $('#file22').change( function(event) {
+      file1 = URL.createObjectURL(event.target.files[0]);
+      console.log(file1);
+
+    });
+
 $('#add').click(function(){
   var title = $('#input-0').val();
   var description = $('#description').val();
   var datepicker = $('#datepicker').val();
-	var image = $("#file22");
-  image.src = URL.createObjectURL(event.target.files[0]);
-	console.log(image);
   if(title === "" || description === "" || datepicker === ""){
         return false;
   }
-  var new_task = "<div class='big'><div class='new-header'>"+ title +"</div><div class='new-description'>"+ description +"</div><div class='new-datepicker'>"+ datepicker +"</div><div id='file22'>"+ image +"</div><button id='delete'>Delete task</button></div>";
+  var new_task = "<div class='big'><div class='new-header'>"+ title +"</div><div class='new-description'>"+ description +"</div><div class='new-datepicker'>"+ datepicker +"</div><div id='file'>"+ "<img src='" + file1 + "'/>" +"</div><button id='delete'>Delete task</button></div>";
 
   $('#one').append(new_task);
 
   var title = $('#input-0').val("");
   var description = $('#description').val("");
   var datepicker = $('#datepicker').val("");
-  
-	
+
   $(".big").draggable({
     revert: 'invalid',
     });
@@ -56,5 +60,3 @@ $('#add2').click(function () {
   location.reload();
   return false;
 });
-
-

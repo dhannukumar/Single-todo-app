@@ -3,6 +3,9 @@ body{
 	font-family: "ubuntu";
 	background-image: url("jq.jpg");
 }
+img{
+	width: 50px;
+}
 #main-container{
   display: flex;
 }
